@@ -6,16 +6,62 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Hunchpig
+email: ian+hunchpig@iancanderson.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://hunchpig.audio" # the base hostname & protocol for your site
+twitter_username: hunchpig
+github_username:  hunchpig
 
 # Build settings
 markdown: kramdown
+
+# Podcast General Settings
+# ------------------------------------------------------------------------
+
+# The homepage of your podcast
+podcastSite: https://hunchpig.audio
+
+# The cover image for the podcast, will show in search results in iTunes
+podcastCoverImg: https://hunchpig.audio/cover.jpg
+
+# The name of your podcast
+podcastTitle: Hunchpig
+
+# About You. For iTunes admin. This information is not displayed on the iTunes Store.
+podcastOwner: Ian Anderson
+podcastEmail: ian+hunchpig@iancanderson.com
+
+# See https://www.apple.com/itunes/podcasts/specs.html near the bottom for valid categories
+category: Society &amp; Culture
+subCategory: Personal Journals
+
+# is it too dangerous for the impressionable kiddos?
+podcastIsExplicit: "yes"
+
+
+podcastAuthor: Ian C. Anderson and Matthew Sumner
+podcastDescription: Ian and Matt ramble on about growing up on different sides of the pond, developing software for the web, and figuring out how they got so off-topic.
+podcastSubtitle: Wrong assumptions, miscommunications and incorrect best guesses from two software developers.
+
+
+
+#                          ###
+
+
+
+# Don't edit below this line unless you know what you are doing.
+# ------------------------------------------------------------------------
+
+
+# Create a Jekyll collection to handle the episodes
+collections:
+- episodes
+
+# Keep the readme out of the output folder
+exclude: ['Gemfile', 'Gemfile.lock', 'readme.md']
+
