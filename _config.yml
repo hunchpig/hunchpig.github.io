@@ -27,7 +27,7 @@ markdown: kramdown
 podcastSite: https://hunchpig.audio
 
 # The cover image for the podcast, will show in search results in iTunes
-podcastCoverImg: https://hunchpig.audio/cover.jpg
+podcastCoverImg: https://hunchpig.audio/cover.png
 
 # The name of your podcast
 podcastTitle: Hunchpig
