@@ -4,6 +4,8 @@ layout: default
 
 <div class="home">
 
+  <p class="podcast-subscribe">subscribe to podcast <a href="{{ "/podcast.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
   <!-- <h1 class="page&#45;heading">Posts</h1> -->
 
   <ul class="post-list">
@@ -16,8 +18,22 @@ layout: default
         </h2>
       </li>
     {% endfor %}
-  </ul>
+    {% for episode in site.episodes %}
+      <li>
+        <h2>{{episode.title}}</h2>
+        <p><strong>{{episode.subtitle}}</strong></p>
+        <p>{{episode.summary}}</p>
 
-  <p class="podcast-subscribe">subscribe to podcast <a href="{{ "/podcast.xml" | prepend: site.baseurl }}">via RSS</a></p>
+        <audio controls>
+          <source src="{{episode.enclosureUrl}}" type="{{ep.enclosureType}}"/>
+        </audio>
+
+        <p>
+        <a href="{{episode.enclosureUrl}}">Download</a>
+        </p>
+        <p>Published {{episode.pubDate}}</p>
+      </li>
+    {% endfor %}
+  </ul>
 
 </div>
