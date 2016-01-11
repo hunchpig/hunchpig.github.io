@@ -37,7 +37,7 @@ layout: null
 
       <enclosure url="{{ep.enclosureUrl}}" length="{{ep.enclosureLength}}" type="{{ep.enclosureType}}" />
 
-      <guid>{{ep.guid}}</guid>
+      <guid>{{ep.enclosureUrl}}</guid>
 
       <pubDate>{{ep.pubDate}}</pubDate>
 
