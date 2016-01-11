@@ -18,7 +18,7 @@ layout: null
     <itunes:owner>
       <itunes:name>{{site.podcastOwner}}</itunes:name>
       <itunes:email>{{site.podcastEmail}}</itunes:email>
-    </itunes:owner>``
+    </itunes:owner>
 
     <itunes:image href="{{site.podcastCoverImg}}" />
 
