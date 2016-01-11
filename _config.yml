@@ -9,9 +9,9 @@
 title: Hunchpig
 email: ian+hunchpig@iancanderson.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  In this podcast, Ian and Matt ramble on about growing up on
+  different sides of the pond, developing software for the web, and figuring out
+  how they got so off-topic.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://hunchpig.audio" # the base hostname & protocol for your site
 twitter_username: hunchpig
