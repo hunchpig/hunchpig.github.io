@@ -33,7 +33,6 @@ layout: null
       <itunes:subtitle>{{ep.subtitle}}</itunes:subtitle>
       <itunes:author>{{ep.author}}</itunes:author>
       <itunes:summary>{{ep.summary}}</itunes:summary>
-      <itunes:image href="{{ep.image}}" />
 
       <enclosure url="{{ep.enclosureUrl}}" length="{{ep.enclosureLength}}" type="{{ep.enclosureType}}" />
 
