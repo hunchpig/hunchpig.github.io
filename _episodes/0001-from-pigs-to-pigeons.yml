@@ -1,0 +1,41 @@
+---
+
+title: 1 - The Ginger Strikes Back
+author: Ian C. Anderson and Matthew Sumner
+
+# For best results, choose a subtitle that is only a few words long.
+subtitle: From pigs to pigeons
+
+# This is the verbose show description, up to 4,000 char long
+summary: Ian and Matt answer life's big questions, like the meaning of
+  extraordinary, why Ian has a cat, zero-based vs. one-based numbering, time
+  travel, who should be considered Americans, whether or not we have free will,
+  designing in the Bauhaus style with cardboard boxes, the etymology of
+  pigeonholing, virtual reality, virtual empathy, attempting to be more
+  deliberate, lacking a filter, and playing Descent.
+
+# Episode art - Min size 1400x1400, max size 3000x3000
+# image: http://example.com/podcasts/everything/AllAboutEverything/Episode1.jpg
+
+
+
+# Global Unique ID, can be the episode url, or just a unique number that doesn't change
+guid: 0001
+
+# The date must be “day-of-week, day month year”. The time must be in 24 hour format (no AM or PM) and must include the time zone offset.
+pubDate: Sun, 17 Jan 2016 21:00:00 GMT
+
+
+# This is your podcast episode file
+enclosureUrl: https://episodes.hunchpig.audio/0001.mp3
+
+# The length attribute is the file size in bytes. Find this information in the properties of your podcast file (on a Mac, choose Get Info from the File menu and refer to the size row).
+enclosureLength: 79467832
+
+# for available types, see https://www.apple.com/itunes/podcasts/specs.html
+enclosureType: audio/mpeg
+
+# HH:MM:SS,
+duration: 01:22:47
+
+---
