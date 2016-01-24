@@ -21,7 +21,7 @@ layout: default
         </h2>
       </li>
     {% endfor %}
-    {% assign episodes = site.episodes | sort: 'pubDate' | reverse %}
+    {% assign episodes = site.episodes | sort: 'guid' | reverse %}
     {% for episode in episodes %}
       <li>
         <h2>{{episode.title}}</h2>
