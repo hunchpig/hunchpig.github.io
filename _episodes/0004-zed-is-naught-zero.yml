@@ -1,0 +1,46 @@
+---
+
+title: 4 - Zed is naught zero
+author: Ian C. Anderson and Matthew Sumner
+
+# For best results, choose a subtitle that is only a few words long.
+subtitle: And the pessimistic magnifying glasses
+
+# This is the verbose show description, up to 4,000 char long
+summary: Ian and Matt cover perception vs reality, playing This War of Mine with
+  a single character, listener feedback, the color orange, past tenses,
+  pronouncing the Ts in buttermilk, Horace and Pete, the etymology of Television
+  Show, the evolutionary need to watch horror movies, synesthesia, and bipolar
+  disorder. They try the Vanilla Bourbon Oak Stout again after it has been
+  subjected to a warmer environment, hoping for better carbonation. Ian airs his
+  greivances about lit open signs on businesses that are obviously closed, and
+  they consider how constraints can help creativity. All three music clips in
+  this episode were (very quickly) created and exported using Apple's new Music
+  Memos app, with no other editing or processing.
+  
+  This episode was generously sponsored by <a
+  href="http://music.twentyeightmusic.com">http://music.twentyeightmusic.com</a>.
+  Contact us at <a
+  href="http://twitter.com/hunchpig">http://twitter.com/hunchpig</a> for
+  sponsorship opportunities. Our next sponsorship is available for $8!
+
+# Global Unique ID, can be the episode url, or just a unique number that doesn't change
+guid: 0004
+
+# The date must be “day-of-week, day month year”. The time must be in 24 hour format (no AM or PM) and must include the time zone offset.
+pubDate: Sat, 6 Feb 2016 22:00:00 GMT
+
+
+# This is your podcast episode file
+enclosureUrl: https://episodes.hunchpig.audio/0004.mp3
+
+# The length attribute is the file size in bytes. Find this information in the properties of your podcast file (on a Mac, choose Get Info from the File menu and refer to the size row).
+enclosureLength: 80738428
+
+# for available types, see https://www.apple.com/itunes/podcasts/specs.html
+enclosureType: audio/mpeg
+
+# HH:MM:SS,
+duration: 01:24:06
+
+---
