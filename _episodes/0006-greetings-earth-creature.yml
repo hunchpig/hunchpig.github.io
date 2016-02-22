@@ -1,0 +1,31 @@
+---
+
+title: 6 - Greetings earth creature
+author: Ian C. Anderson and Matthew Sumner
+
+# For best results, choose a subtitle that is only a few words long.
+subtitle: Tickets, please. Good morning, Pteranodon family!
+
+# This is the verbose show description, up to 4,000 char long
+summary: Ian and Matt talk. Contact us at http://twitter.com/hunchpig for
+  sponsorship opportunities. Our next sponsorship is available for $6!
+
+# Global Unique ID, can be the episode url, or just a unique number that doesn't change
+guid: 0006
+
+# The date must be “day-of-week, day month year”. The time must be in 24 hour format (no AM or PM) and must include the time zone offset.
+pubDate: Sat, 21 Feb 2016 23:00:00 GMT
+
+# This is your podcast episode file
+enclosureUrl: https://episodes.hunchpig.audio/0006.mp3
+
+# The length attribute is the file size in bytes. Find this information in the properties of your podcast file (on a Mac, choose Get Info from the File menu and refer to the size row).
+enclosureLength: 58149824
+
+# for available types, see https://www.apple.com/itunes/podcasts/specs.html
+enclosureType: audio/mpeg
+
+# HH:MM:SS,
+duration: 01:00:34
+
+---
