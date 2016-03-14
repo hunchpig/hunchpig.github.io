@@ -1,0 +1,33 @@
+---
+
+title: 8 - Listen on your dog and bone
+author: Ian C. Anderson and Matthew Sumner
+
+# For best results, choose a subtitle that is only a few words long.
+subtitle: All on your Jack Jones
+
+# This is the verbose show description, up to 4,000 char long
+summary: Ian and Matt talk about Boda Borg, Cockney rhyming slang, bottling
+  Matt's first homebrew, and Trump's genitals.  Contact us at
+  http://twitter.com/hunchpig for sponsorship opportunities. Our next
+  sponsorship is available for $4!
+
+# Global Unique ID, can be the episode url, or just a unique number that doesn't change
+guid: 0008
+
+# The date must be “day-of-week, day month year”. The time must be in 24 hour format (no AM or PM) and must include the time zone offset.
+pubDate: Sun, 13 Mar 2016 23:00:00 GMT
+
+# This is your podcast episode file
+enclosureUrl: https://episodes.hunchpig.audio/0008.mp3
+
+# The length attribute is the file size in bytes. Find this information in the properties of your podcast file (on a Mac, choose Get Info from the File menu and refer to the size row).
+enclosureLength: 78717177
+
+# for available types, see https://www.apple.com/itunes/podcasts/specs.html
+enclosureType: audio/mpeg
+
+# HH:MM:SS,
+duration: 01:22:00
+
+---
