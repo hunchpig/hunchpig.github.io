@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+
+require_relative "../lib/episode_updater"
+
+mp3_filename = ARGV.first
+
+episode_updater = EpisodeUpdater.new(
+  mp3_filename: mp3_filename,
+)
+episode_updater.update_yaml_file
+
+puts "#{episode_updater.yaml_filename} updated with contents:"
+puts
+puts
+puts episode_updater.updated_episode_yaml

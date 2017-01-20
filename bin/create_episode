@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+
+require_relative "../lib/episode"
+require_relative "../lib/episode_creator"
+
+episode_title, mp3_filename = ARGV
+
+episode_creator = EpisodeCreator.new(
+  episode_title: episode_title,
+  mp3_filename: mp3_filename,
+)
+
+episode_creator.create_yaml_file
+
+puts "#{episode_creator.yaml_filename} created with contents:"
+puts
+puts
+puts episode_creator.episode_yaml
