@@ -1,5 +1,6 @@
 require "active_support/core_ext/string"
 require "mp3info"
+require_relative "audio_file_metadata"
 
 class EpisodeCreator
   def initialize(episode_title: nil, mp3_filename: nil)
