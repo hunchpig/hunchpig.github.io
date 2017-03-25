@@ -7,7 +7,8 @@
 
 # Site settings
 title: Hunchpig
-email: ian+hunchpig@iancanderson.com
+ian_email: ian@hunchpig.audio
+matt_email: matt@hunchpig.audio
 description: > # this means to ignore newlines until "baseurl:"
   In this podcast, Ian and Matt ramble on about growing up on
   different sides of the pond, developing software for the web, and figuring out
@@ -34,7 +35,7 @@ podcastTitle: Hunchpig
 
 # About You. For iTunes admin. This information is not displayed on the iTunes Store.
 podcastOwner: Ian Anderson
-podcastEmail: ian+hunchpig@iancanderson.com
+podcastEmail: ian@hunchpig.audio
 
 # See https://www.apple.com/itunes/podcasts/specs.html near the bottom for valid categories
 category: Society &amp; Culture
