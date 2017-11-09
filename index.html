@@ -31,9 +31,11 @@ layout: default
         <p><strong>{{episode.subtitle}}</strong></p>
         <p>{{episode.summary}}</p>
 
-        <audio controls>
-          <source src="{{episode.enclosureUrl}}" type="{{ep.enclosureType}}"/>
-        </audio>
+        {% if forloop.first == true %}
+          <audio controls>
+            <source src="{{episode.enclosureUrl}}" type="{{ep.enclosureType}}"/>
+          </audio>
+        {% endif %}
 
         <p>
         <a href="{{episode.enclosureUrl}}">Download</a>
