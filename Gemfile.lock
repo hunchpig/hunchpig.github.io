@@ -210,7 +210,7 @@ GEM
     ruby-enum (0.7.1)
       i18n
     ruby-mp3info (0.8.10)
-    rubyzip (1.2.1)
+    rubyzip (2.0.0)
     safe_yaml (1.0.4)
     sass (3.5.3)
       sass-listen (~> 4.0.0)
