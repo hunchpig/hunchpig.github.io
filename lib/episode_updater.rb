@@ -16,7 +16,7 @@ class EpisodeUpdater
   end
 
   def yaml_filename
-    "_episodes/#{Dir.entries('_episodes').last}"
+    "_episodes/#{Dir.entries('_episodes').sort.last}"
   end
 
   def updated_episode_yaml

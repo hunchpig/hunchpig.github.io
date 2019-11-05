@@ -76,6 +76,6 @@ class Episode
 
   def last_episode_number
     @last_episode_number ||=
-      Dir.entries("_episodes").last.split("-").first.to_i
+      Dir.entries("_episodes").sort.last.split("-").first.to_i
   end
 end
